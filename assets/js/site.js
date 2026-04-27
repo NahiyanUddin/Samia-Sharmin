@@ -214,7 +214,9 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
 
     <section class="section section-spaced split-band">
       <div class="quote-panel">
-        <div><h2>Architecture Beyond Drawings</h2></div>
+        <div class="section-heading">
+          <div><h2>Architecture Beyond Drawings</h2></div>
+        </div>
         <p>${escapeHtml(introParagraphs[0] || profile.homepage_intro.short)}</p>
         <br>
         <br>
