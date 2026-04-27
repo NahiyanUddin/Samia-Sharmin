@@ -729,9 +729,23 @@ button,
   object-fit: contain;
 }
 
+.publication-badge-icon.is-prothomalo {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
 .source-heading-badge .publication-badge-icon.is-wide {
   width: 2.25rem;
   object-fit: contain;
+}
+
+.source-heading-badge .publication-badge-icon.is-prothomalo {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
 }
 
 .publication-badge-icon.is-kishoralo {

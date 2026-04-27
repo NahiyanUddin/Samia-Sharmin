@@ -1126,6 +1126,9 @@ function publicationIconPath(publication) {
 
 function publicationIconClass(publication) {
   const key = String(publication || "").toLowerCase();
+  if (key.includes("prothom alo")) {
+    return "publication-badge-icon is-prothomalo";
+  }
   if (key.includes("kishor alo")) {
     return "publication-badge-icon is-wide is-kishoralo";
   }
