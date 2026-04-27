@@ -577,10 +577,10 @@ button,
   display: grid;
   gap: 1rem;
   padding: 1.2rem;
-  border: 1px solid rgba(16, 163, 127, 0.14);
+  border: 1px solid rgba(16, 163, 127, 0.18);
   border-radius: var(--radius-md);
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(244, 248, 246, 0.88));
+    linear-gradient(180deg, rgba(233, 245, 240, 0.92), rgba(224, 240, 233, 0.76));
   box-shadow: var(--shadow);
 }
 
@@ -589,7 +589,7 @@ button,
   align-items: center;
   gap: 0.9rem;
   padding-bottom: 0.9rem;
-  border-bottom: 1px solid rgba(16, 163, 127, 0.12);
+  border-bottom: 1px solid rgba(16, 163, 127, 0.18);
 }
 
 .article-source-title {
@@ -614,7 +614,9 @@ button,
 
 .article-card {
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(244, 246, 245, 0.93));
+    linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(252, 253, 252, 0.98));
+  border: 1px solid rgba(32, 33, 36, 0.08);
+  box-shadow: 0 12px 26px rgba(22, 32, 29, 0.08);
 }
 
 .article-card h3 {
@@ -675,8 +677,8 @@ button,
   gap: 0.5rem;
   padding: 0.32rem 0.6rem;
   border-radius: 999px;
-  background: rgba(16, 163, 127, 0.08);
-  border: 1px solid rgba(16, 163, 127, 0.12);
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(16, 163, 127, 0.16);
   color: var(--accent-deep);
   font-size: 0.8rem;
   font-weight: 700;
@@ -688,19 +690,25 @@ button,
   gap: 0.7rem;
   padding: 0.48rem 0.8rem;
   border-radius: 999px;
-  background: rgba(16, 163, 127, 0.12);
-  border: 1px solid rgba(16, 163, 127, 0.16);
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(16, 163, 127, 0.2);
   color: var(--accent-deep);
   font-size: 0.9rem;
   font-weight: 800;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  box-shadow: 0 8px 18px rgba(22, 32, 29, 0.08);
 }
 
 .publication-badge img,
 .publication-badge-icon {
   width: 1.05rem;
   height: 1.05rem;
+  box-sizing: border-box;
+  padding: 0.08rem;
+  background: #fff;
+  border: 1px solid rgba(32, 33, 36, 0.08);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.65);
   object-fit: contain;
   border-radius: 3px;
 }
@@ -709,27 +717,30 @@ button,
 .source-heading-badge .publication-badge-icon {
   width: 1.5rem;
   height: 1.5rem;
-  object-fit: cover;
+  padding: 0.12rem;
+  background: #fff;
+  border: 1px solid rgba(32, 33, 36, 0.08);
+  object-fit: contain;
   border-radius: 5px;
 }
 
 .publication-badge-icon.is-wide {
-  width: 1.45rem;
+  width: 1.6rem;
   object-fit: contain;
 }
 
 .source-heading-badge .publication-badge-icon.is-wide {
-  width: 2rem;
+  width: 2.25rem;
   object-fit: contain;
 }
 
 .publication-badge-icon.is-kishoralo {
-  transform: scaleX(0.92);
+  transform: scaleX(0.94);
   transform-origin: center;
 }
 
 .publication-badge-icon.is-thedailystar {
-  transform: scaleX(0.88);
+  transform: scaleX(0.92);
   transform-origin: center;
 }
 
