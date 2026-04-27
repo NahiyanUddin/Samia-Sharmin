@@ -224,7 +224,6 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
         <div class="section-heading">
           <div>
             <h2>Tracing Stories in Space, Material, and Memory</h2>
-            // <p>${escapeHtml(profile.homepage_intro.short)}</p>
           </div>
         </div>
         ${introParagraphs.slice(2, 5).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
