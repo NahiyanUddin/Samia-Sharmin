@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "person": "Samia Sharmin",
+    "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+    "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+    "last_structured": "2026-04-27"
+  },
+  "page_note": "The CV materials describe writing roles and subject areas, but do not provide individual article titles. This file therefore does not invent article names.",
+  "article_titles_provided_in_cv": [],
+  "writing_roles": [
+    {
+      "organization": "The Daily Prothom Alo / Kishor Alo",
+      "role": "Contributing Feature & Content Writer; Event Organizer & Youth Program Facilitator",
+      "dates": "2012 - Present; youth/event programs from 2014 - Present",
+      "topics": [
+        "Architecture",
+        "Design",
+        "Culture",
+        "Award-winning projects",
+        "Built-environment topics",
+        "Youth and public-interest stories"
+      ],
+      "activities": [
+        "Write feature articles, interviews, and accessible design-focused stories for a broad public readership.",
+        "Identify architecture, interior design, cultural, youth, and public-interest stories suitable for mainstream publication.",
+        "Coordinate and host large-scale national youth events and facilitate youth-centered programs."
+      ]
+    },
+    {
+      "organization": "Ceramic Bangladesh Magazine / BCMEA",
+      "role": "Content Writer / Contributing Writer",
+      "dates": "2023 - Present",
+      "topics": [
+        "Ceramics",
+        "Building materials",
+        "Architecture",
+        "Design",
+        "Industry trends"
+      ],
+      "activities": [
+        "Develop articles and features.",
+        "Write research-informed content connecting material innovation, design application, architects, engineers, and industry communication.",
+        "Conduct interviews with architects, engineers, and industry leaders.",
+        "Coordinate visuals, captions, references, and supporting content details."
+      ]
+    },
+    {
+      "organization": "ArchBiz Magazine",
+      "role": "Editorial Team / Editorial Associate",
+      "dates": "2025 - Present",
+      "topics": [
+        "Architecture",
+        "Design",
+        "Art",
+        "Business",
+        "Built-environment topics"
+      ],
+      "activities": [
+        "Manage editorial content from topic selection to print preparation.",
+        "Identify relevant stories, projects, designers, industry themes, and built-environment topics.",
+        "Communicate with interviewees, architects, designers, contributors, and project representatives.",
+        "Write research-informed articles and interview-based content.",
+        "Coordinate images, drawings, captions, references, and visual assets; review layouts before print."
+      ]
+    }
+  ],
+  "suggested_website_categories_based_on_cv": [
+    "Architecture writing",
+    "Feature writing",
+    "Interviews",
+    "Material narratives",
+    "Editorial coordination",
+    "Publication workflow",
+    "Built-environment stories"
+  ]
+}

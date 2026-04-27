@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "person": "Samia Sharmin",
+    "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+    "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+    "last_structured": "2026-04-27"
+  },
+  "notes": [
+    "This is a master dataset intended as a comprehensive source. For public webpages, remove sections that are not relevant to the page or audience.",
+    "Graduate admission details differ across source documents: Texas A&M University MUP Fall 2026 appears in the operations/events resume, while The University of Texas at Austin MSCRP appears in architecture/archive CV versions. Keep only the current, relevant program when publishing.",
+    "Finding Bangladesh dates differ across source versions. Confirm whether the correct listing should be 2018-2022, Oct 2023-Present, or intermittent/various engagements before using externally.",
+    "Abul Khair Group is listed as Nov 2024-Present in the most recent content/Archello CV versions and as Nov 2023-Present in one elaborate CV version. Nov 2024-Present is used here because it appears consistently in the newer targeted CVs.",
+    "The CV materials do not include specific article titles. The writing JSON therefore lists roles, topics, and activities only."
+  ]
+}

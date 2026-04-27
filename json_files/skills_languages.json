@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "person": "Samia Sharmin",
+    "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+    "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+    "last_structured": "2026-04-27"
+  },
+  "skills": [
+    {
+      "category": "Content & Editorial",
+      "items": [
+        "Architecture writing",
+        "Feature writing",
+        "Editorial planning",
+        "Interview coordination",
+        "Copywriting",
+        "Content development",
+        "Visual coordination",
+        "Caption writing",
+        "Layout review",
+        "Publication workflow"
+      ]
+    },
+    {
+      "category": "Brand & Product",
+      "items": [
+        "Building-material communication",
+        "Brand proposition",
+        "Target-audience profiling",
+        "Product messaging",
+        "Campaign concept development",
+        "Creative briefing",
+        "Brand alignment",
+        "Architect-industry collaboration"
+      ]
+    },
+    {
+      "category": "Research & Archive",
+      "items": [
+        "Urban heritage research",
+        "Architectural history",
+        "Community-based methods",
+        "Participatory research",
+        "Archival documentation",
+        "Collection-based research",
+        "Metadata-informed interpretation",
+        "Exhibition support"
+      ]
+    },
+    {
+      "category": "Leadership & Ops",
+      "items": [
+        "Team supervision and mentoring",
+        "Staff training and facilitation",
+        "Event planning and coordination",
+        "Scheduling",
+        "Workflow coordination",
+        "Logistics",
+        "Conflict resolution",
+        "Professional communication"
+      ]
+    },
+    {
+      "category": "Design & Modeling",
+      "items": [
+        "AutoCAD",
+        "SketchUp",
+        "Rhinoceros 3D",
+        "Lumion",
+        "ArcGIS",
+        "Architectural documentation",
+        "Project analysis"
+      ]
+    },
+    {
+      "category": "Graphics & Media",
+      "items": [
+        "Adobe Photoshop",
+        "Illustrator",
+        "InDesign",
+        "Premiere Pro",
+        "Adobe Firefly",
+        "Documentary and visual storytelling"
+      ]
+    },
+    {
+      "category": "Administrative",
+      "items": [
+        "Google Docs",
+        "Google Sheets",
+        "Google Drive",
+        "Gmail",
+        "Microsoft Office",
+        "Documentation and reporting",
+        "Internal coordination systems",
+        "EMS software exposure"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Bengali",
+      "proficiency": "Native"
+    },
+    {
+      "language": "English",
+      "proficiency": "Professional working proficiency / fluent",
+      "test": "IELTS Academic Overall 7.5"
+    }
+  ]
+}

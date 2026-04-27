@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "person": "Samia Sharmin",
+    "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+    "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+    "last_structured": "2026-04-27"
+  },
+  "architecture_exhibition_museum_heritage_programs": [
+    {
+      "role": "Junior Architect / Architect",
+      "employment_type": "Full-time",
+      "organization": "SYSTEM Architects",
+      "location": "Dhaka, Bangladesh",
+      "dates": "Jul 2022 - Sep 2022",
+      "responsibilities": [
+        "Contributed to architectural design, project documentation, publications, client communication, and presentation preparation.",
+        "Supported cultural and museum-related projects, including the Bangladesh National Museum.",
+        "Assisted in the development of the Shilpacharya Zainul Abedin Gallery, engaging with exhibition environments, gallery experience, and visitor-oriented design."
+      ]
+    },
+    {
+      "role": "Exhibition & Gallery Organizer",
+      "organization": "National Museum / Artist Gallery",
+      "location": "Bangladesh",
+      "dates": "Various projects, 2021 - Present",
+      "responsibilities": [
+        "Supported exhibition planning, coordination, installation, research, documentation, curatorial development, and visitor engagement in museum and gallery contexts.",
+        "Contributed to heritage, art, and architecture exhibitions with attention to interpretation, presentation, and public-facing experience."
+      ]
+    },
+    {
+      "role": "Program Organizer",
+      "organization": "UNESCO World Heritage Volunteers Program / Perceive",
+      "location": "Bangladesh",
+      "dates": "2023",
+      "responsibilities": [
+        "Organized and coordinated a 10-day international heritage workshop supported by UNESCO, the Department of Archaeology Bangladesh, and the Bangladesh National Museum.",
+        "Managed lectures, archival exploration, museum gallery engagement, site visits, hands-on training activities, and multi-site program logistics.",
+        "Facilitated collaboration among international participants, heritage professionals, cultural institutions, and academic institutions."
+      ]
+    }
+  ]
+}

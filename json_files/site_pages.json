@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "person": "Samia Sharmin",
+    "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+    "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+    "last_structured": "2026-04-27"
+  },
+  "pages": [
+    {
+      "slug": "/",
+      "title": "Home",
+      "data_files": [
+        "profile.json",
+        "writing.json",
+        "research_publications.json",
+        "awards.json"
+      ]
+    },
+    {
+      "slug": "/about",
+      "title": "About",
+      "data_files": [
+        "profile.json",
+        "education.json",
+        "skills_languages.json"
+      ]
+    },
+    {
+      "slug": "/work",
+      "title": "Architecture, Exhibition & Heritage Work",
+      "data_files": [
+        "architecture_heritage.json",
+        "experience.json"
+      ]
+    },
+    {
+      "slug": "/articles",
+      "title": "Articles & Writing",
+      "data_files": [
+        "writing.json"
+      ]
+    },
+    {
+      "slug": "/research",
+      "title": "Research & Publications",
+      "data_files": [
+        "research_publications.json"
+      ]
+    },
+    {
+      "slug": "/awards-activities",
+      "title": "Awards & Activities",
+      "data_files": [
+        "awards.json",
+        "activities.json",
+        "presentations.json"
+      ]
+    },
+    {
+      "slug": "/cv",
+      "title": "CV & Experience",
+      "data_files": [
+        "education.json",
+        "experience.json",
+        "architecture_heritage.json",
+        "skills_languages.json",
+        "references.json"
+      ]
+    },
+    {
+      "slug": "/contact",
+      "title": "Contact",
+      "data_files": [
+        "profile.json",
+        "references.json"
+      ]
+    }
+  ]
+}

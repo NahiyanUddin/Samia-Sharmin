@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "person": "Samia Sharmin",
+    "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+    "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+    "last_structured": "2026-04-27"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Architecture (B.Arch.)",
+      "institution": "University of Asia Pacific",
+      "location": "Dhaka, Bangladesh",
+      "dates": "2017 - 2022",
+      "cgpa": "3.21/4.00",
+      "honors": [
+        "Dean’s Merit Award, 4th Year, 1st Semester",
+        "Merit-based scholarship, 2nd Year, 1st Semester",
+        "100% scholarship in 1st semester based on SSC and HSC results"
+      ]
+    },
+    {
+      "degree": "Master of Science in Community and Regional Planning (MSCRP)",
+      "institution": "The University of Texas at Austin",
+      "location": "Austin, TX",
+      "status": "Admitted; deferred / expected enrollment listed as Fall 2027 in one CV version",
+      "note": "Planning-focused graduate admission noted in architecture-content and archive/heritage versions of the CV."
+    },
+    {
+      "degree": "Master of Urban Planning (MUP)",
+      "institution": "Texas A&M University",
+      "location": "College Station, TX",
+      "status": "Admitted; Fall 2026 listed in operations/events resume",
+      "note": "Program admission used in a graduate assistantship resume focused on operations, events, and student-facing leadership."
+    },
+    {
+      "degree": "Higher Secondary Certificate (Science)",
+      "institution": "Holy Cross College",
+      "location": "Dhaka, Bangladesh",
+      "year": "2016",
+      "gpa": "5.00"
+    },
+    {
+      "degree": "Secondary School Certificate (Science)",
+      "institution": "Tejgaon Government Girls’ High School",
+      "location": "Dhaka, Bangladesh",
+      "year": "2014",
+      "gpa": "5.00"
+    }
+  ],
+  "tailoring_note": "Graduate admission details differ across source documents. Keep only the current, relevant program when publishing or applying."
+}

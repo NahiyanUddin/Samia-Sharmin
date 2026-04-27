@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "person": "Samia Sharmin",
+    "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+    "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+    "last_structured": "2026-04-27"
+  },
+  "name": "Samia Sharmin",
+  "title_line": "Architect | Writer | Content & Brand Strategist | Heritage Researcher | Educator",
+  "location": "Dhaka, Bangladesh",
+  "email": "bivasamia@gmail.com",
+  "availability": "Available for remote collaboration",
+  "homepage_intro": {
+    "short": "Architecture-trained writer, researcher, and design communicator working across architectural storytelling, heritage documentation, material narratives, editorial writing, and built-environment communication.",
+    "long": "Architecture-trained writer, content strategist, educator, and heritage researcher with experience across building-material brand strategy, architecture-focused editorial work, publication coordination, research documentation, exhibition and gallery support, youth and event coordination, and design communication. Skilled in translating architectural, material, cultural, and institutional knowledge into clear public-facing content for specialist and general audiences. Experienced in editorial workflows, interviews, visual coordination, campaign brief development, academic teaching, archival documentation, heritage programming, large-scale event facilitation, and cross-functional stakeholder coordination."
+  },
+  "core_expertise": [
+    {
+      "area": "Writing & Editorial",
+      "items": [
+        "Architecture writing",
+        "Feature writing",
+        "Interview-based storytelling",
+        "Editorial planning",
+        "Copywriting",
+        "Caption writing",
+        "Layout review",
+        "Publication workflow",
+        "Public communication"
+      ]
+    },
+    {
+      "area": "Brand & Content",
+      "items": [
+        "Building-material communication",
+        "Brand proposition",
+        "Target-audience profiling",
+        "Product messaging",
+        "Campaign concepts",
+        "Creative briefing",
+        "Agency coordination",
+        "Brand alignment"
+      ]
+    },
+    {
+      "area": "Research & Heritage",
+      "items": [
+        "Urban heritage research",
+        "Architectural history",
+        "Community-based and participatory methods",
+        "Archival inquiry",
+        "Collection-based research",
+        "Exhibition documentation",
+        "Cultural narratives"
+      ]
+    },
+    {
+      "area": "Teaching & Programs",
+      "items": [
+        "Course delivery",
+        "Student mentorship",
+        "Student portfolio archives",
+        "Workshop coordination",
+        "Youth engagement",
+        "Event planning",
+        "Team supervision",
+        "Facilitation",
+        "Public speaking"
+      ]
+    },
+    {
+      "area": "Architecture & Design",
+      "items": [
+        "Architectural documentation",
+        "Project analysis",
+        "Museum and gallery environments",
+        "Exhibition content",
+        "Building materials",
+        "Sustainable urban design",
+        "Participatory planning"
+      ]
+    }
+  ]
+}

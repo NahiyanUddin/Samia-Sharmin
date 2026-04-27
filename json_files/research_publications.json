@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "person": "Samia Sharmin",
+    "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+    "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+    "last_structured": "2026-04-27"
+  },
+  "research_interests": [
+    "Architectural history and heritage of Bengal",
+    "Sustainable urban design and participatory planning",
+    "Community-based architecture, urban heritage, cultural narratives, and public-facing interpretation",
+    "Archival research, exhibition-based work, material innovation, design communication, and architecture journalism"
+  ],
+  "academic_publications": [
+    {
+      "citation": "Sharmin, S. (2024). Ancient Cities of Riverine Bengal: In Search for “the Soul” of the Settlements. Rajshahi University Journal of Arts & Law, ISSN 2309-0898.",
+      "status": "Published",
+      "year": "2024"
+    },
+    {
+      "citation": "Sharmin, S. (2024). Three Religious Marvels of Bengal: Comparative Insights into Hindu, Buddhist, and Islamic Architecture.",
+      "status": "Accepted, Awaiting Publication",
+      "year": "2024"
+    },
+    {
+      "citation": "Sharmin, S. (2025). Analyzing Mahallah Fabric in the Sultanate Capital of Gaur: A Review of Findings.",
+      "status": "Under Review",
+      "year": "2025"
+    }
+  ],
+  "workshops_collaborative_research": [
+    {
+      "title": "The Making of Publicness Workshop",
+      "host_or_conductor": "Bengal Institute; conducted by Arfar Razi",
+      "location": "Dhaka",
+      "year": "2025",
+      "details": [
+        "Investigated two sites in Dhaka through spatial, political, and physical analysis.",
+        "Conducted user-based assessments on comfort, perception, inclusivity, vitality, and likability; produced a video documentary presenting findings and narratives.",
+        "Workshop inspired by a course developed by Bjorn Sletto and conducted by a UT Austin MCRP graduate."
+      ]
+    },
+    {
+      "title": "Participatory Design Workshop",
+      "host_or_conductor": "Dhaka Urban Lab, World Bank and DSCC",
+      "location": "Dhaka",
+      "year": "2021",
+      "details": [
+        "Engaged in a neighborhood upgrading project focused on community-based urban interventions and participatory design processes."
+      ]
+    }
+  ]
+}

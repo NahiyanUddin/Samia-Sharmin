@@ -1,0 +1,794 @@
+{
+  "metadata": {
+    "person": "Samia Sharmin",
+    "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+    "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+    "last_structured": "2026-04-27"
+  },
+  "profile": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "name": "Samia Sharmin",
+    "title_line": "Architect | Writer | Content & Brand Strategist | Heritage Researcher | Educator",
+    "location": "Dhaka, Bangladesh",
+    "email": "bivasamia@gmail.com",
+    "availability": "Available for remote collaboration",
+    "homepage_intro": {
+      "short": "Architecture-trained writer, researcher, and design communicator working across architectural storytelling, heritage documentation, material narratives, editorial writing, and built-environment communication.",
+      "long": "Architecture-trained writer, content strategist, educator, and heritage researcher with experience across building-material brand strategy, architecture-focused editorial work, publication coordination, research documentation, exhibition and gallery support, youth and event coordination, and design communication. Skilled in translating architectural, material, cultural, and institutional knowledge into clear public-facing content for specialist and general audiences. Experienced in editorial workflows, interviews, visual coordination, campaign brief development, academic teaching, archival documentation, heritage programming, large-scale event facilitation, and cross-functional stakeholder coordination."
+    },
+    "core_expertise": [
+      {
+        "area": "Writing & Editorial",
+        "items": [
+          "Architecture writing",
+          "Feature writing",
+          "Interview-based storytelling",
+          "Editorial planning",
+          "Copywriting",
+          "Caption writing",
+          "Layout review",
+          "Publication workflow",
+          "Public communication"
+        ]
+      },
+      {
+        "area": "Brand & Content",
+        "items": [
+          "Building-material communication",
+          "Brand proposition",
+          "Target-audience profiling",
+          "Product messaging",
+          "Campaign concepts",
+          "Creative briefing",
+          "Agency coordination",
+          "Brand alignment"
+        ]
+      },
+      {
+        "area": "Research & Heritage",
+        "items": [
+          "Urban heritage research",
+          "Architectural history",
+          "Community-based and participatory methods",
+          "Archival inquiry",
+          "Collection-based research",
+          "Exhibition documentation",
+          "Cultural narratives"
+        ]
+      },
+      {
+        "area": "Teaching & Programs",
+        "items": [
+          "Course delivery",
+          "Student mentorship",
+          "Student portfolio archives",
+          "Workshop coordination",
+          "Youth engagement",
+          "Event planning",
+          "Team supervision",
+          "Facilitation",
+          "Public speaking"
+        ]
+      },
+      {
+        "area": "Architecture & Design",
+        "items": [
+          "Architectural documentation",
+          "Project analysis",
+          "Museum and gallery environments",
+          "Exhibition content",
+          "Building materials",
+          "Sustainable urban design",
+          "Participatory planning"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "education": [
+      {
+        "degree": "Bachelor of Architecture (B.Arch.)",
+        "institution": "University of Asia Pacific",
+        "location": "Dhaka, Bangladesh",
+        "dates": "2017 - 2022",
+        "cgpa": "3.21/4.00",
+        "honors": [
+          "Dean’s Merit Award, 4th Year, 1st Semester",
+          "Merit-based scholarship, 2nd Year, 1st Semester",
+          "100% scholarship in 1st semester based on SSC and HSC results"
+        ]
+      },
+      {
+        "degree": "Master of Science in Community and Regional Planning (MSCRP)",
+        "institution": "The University of Texas at Austin",
+        "location": "Austin, TX",
+        "status": "Admitted; deferred / expected enrollment listed as Fall 2027 in one CV version",
+        "note": "Planning-focused graduate admission noted in architecture-content and archive/heritage versions of the CV."
+      },
+      {
+        "degree": "Master of Urban Planning (MUP)",
+        "institution": "Texas A&M University",
+        "location": "College Station, TX",
+        "status": "Admitted; Fall 2026 listed in operations/events resume",
+        "note": "Program admission used in a graduate assistantship resume focused on operations, events, and student-facing leadership."
+      },
+      {
+        "degree": "Higher Secondary Certificate (Science)",
+        "institution": "Holy Cross College",
+        "location": "Dhaka, Bangladesh",
+        "year": "2016",
+        "gpa": "5.00"
+      },
+      {
+        "degree": "Secondary School Certificate (Science)",
+        "institution": "Tejgaon Government Girls’ High School",
+        "location": "Dhaka, Bangladesh",
+        "year": "2014",
+        "gpa": "5.00"
+      }
+    ],
+    "tailoring_note": "Graduate admission details differ across source documents. Keep only the current, relevant program when publishing or applying."
+  },
+  "experience": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "professional_editorial_brand_experience": [
+      {
+        "role": "Content & Brand Strategist / Brand Strategist",
+        "employment_type": "Full-time",
+        "organization": "Abul Khair Group",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Nov 2024 - Present",
+        "responsibilities": [
+          "Develop concepts, copy, communication directions, brand propositions, target-audience profiles, messaging frameworks, and campaign materials for building-material brands.",
+          "Translate product value into clear content for architecture, construction, and consumer audiences while aligning messaging with brand and business goals.",
+          "Coordinate between brand managers, internal teams, creative agencies, production partners, and external collaborators; convert business goals into clear briefs and actionable creative direction.",
+          "Support cross-functional communication to keep content development, campaign planning, documentation, and publication-oriented materials organized and on schedule.",
+          "Contribute to architect-industry collaborations, architecture-student competitions, youth programs, reality/talent-based productions, and knowledge-sharing initiatives connected to building materials, heritage, craft, and emerging architects."
+        ],
+        "date_note": "One elaborate CV lists Nov 2023 - Present; newer targeted CVs list Nov 2024 - Present."
+      },
+      {
+        "role": "Editorial Team / Editorial Associate",
+        "employment_type": "Part-time",
+        "organization": "ArchBiz Magazine",
+        "location": "Dhaka, Bangladesh",
+        "dates": "2025 - Present",
+        "responsibilities": [
+          "Manage architecture and design-related editorial content from topic selection to print preparation.",
+          "Identify relevant stories, projects, designers, industry themes, and built-environment topics for publication.",
+          "Communicate with interviewees, architects, designers, contributors, and project representatives to clarify story direction and content requirements.",
+          "Write research-informed articles and interview-based content for architecture, art, and business audiences.",
+          "Coordinate project images, drawings, captions, references, and visual assets; review layouts before print for content accuracy, visual alignment, caption quality, and presentation consistency."
+        ]
+      },
+      {
+        "role": "Content Writer / Contributing Writer",
+        "employment_type": "Part-time",
+        "organization": "Ceramic Bangladesh Magazine / BCMEA",
+        "location": "Dhaka, Bangladesh",
+        "dates": "2023 - Present",
+        "responsibilities": [
+          "Develop articles and features on ceramics, building materials, architecture, design, and industry trends.",
+          "Write research-informed content connecting material innovation, design application, architects, engineers, and industry communication.",
+          "Conduct interviews with architects, engineers, and industry leaders; coordinate visuals, captions, references, and supporting content details for publication-ready editorial output."
+        ]
+      },
+      {
+        "role": "Contributing Feature & Content Writer; Event Organizer & Youth Program Facilitator",
+        "employment_type": "Part-time",
+        "organization": "The Daily Prothom Alo / Kishor Alo",
+        "location": "Dhaka, Bangladesh",
+        "dates": "2012 - Present; youth/event programs from 2014 - Present",
+        "responsibilities": [
+          "Write feature articles, interviews, and accessible design-focused stories on architecture, design, culture, award-winning projects, and built-environment topics for a broad public readership.",
+          "Identify architecture, interior design, cultural, youth, and public-interest stories suitable for mainstream publication.",
+          "Coordinate and host large-scale national youth events, facilitate youth-centered programs, manage live schedules, speakers, performance transitions, volunteers, and event-day logistics.",
+          "Serve as host, facilitator, and public speaker for programs emphasizing safe participation, positive conduct, community wellbeing, and youth engagement."
+        ]
+      }
+    ],
+    "academic_research_teaching_experience": [
+      {
+        "role": "Lecturer & Research Assistant",
+        "employment_type": "Full-time",
+        "organization": "Department of Architecture, State University of Bangladesh",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Oct 2022 - Oct 2024",
+        "responsibilities": [
+          "Conducted research on urban heritage and architectural history using community-based and participatory methodologies; produced documentation, analysis, and publication-ready research outputs.",
+          "Developed and delivered courses in design, Urban Design Theory, Bengal History, Architecture Conservation, Technical Writing and Verbal Communication, Cost Estimation, and Working Detail I.",
+          "Instructed and mentored 30-40 undergraduate students per course, providing academic guidance, structured oversight, feedback, and student wellbeing-centered support.",
+          "Coordinated course logistics including schedules, assessments, student activities, reporting, and academic administration across multiple classes within fixed timelines.",
+          "Supported archival organization and management of academic materials, including student portfolio archives; served on committees for communications, website content, public relations, social media, and portfolio documentation.",
+          "Organized outreach initiatives contributing to architectural library collections and student-facing academic resources."
+        ]
+      },
+      {
+        "role": "Research Associate / Heritage Research Contributor",
+        "employment_type": "Part-time",
+        "organization": "Finding Bangladesh: Heritage Research & Youth Engagement Platform; supported by British Council",
+        "location": "Bangladesh",
+        "dates": "Various engagements listed across CVs: 2018 - 2022 and Oct 2023 - Present",
+        "responsibilities": [
+          "Conduct research on historic urban settlements, monuments, ancient histories, folklores, mythologies, and cultural narratives across Bangladesh.",
+          "Joined / continued with the platform after winning the Find Your Bangladesh Competition with a short documentary film, research paper, and presentation.",
+          "Produce cultural storytelling projects, documentary film outputs, heritage documentation, and research resources that contribute to heritage archives and public interpretation.",
+          "Interpret and disseminate cultural knowledge for academic, community, youth, and public audiences."
+        ],
+        "date_note": "Finding Bangladesh dates differ across source versions; confirm the final public-facing date before publishing."
+      }
+    ]
+  },
+  "architecture_heritage": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "architecture_exhibition_museum_heritage_programs": [
+      {
+        "role": "Junior Architect / Architect",
+        "employment_type": "Full-time",
+        "organization": "SYSTEM Architects",
+        "location": "Dhaka, Bangladesh",
+        "dates": "Jul 2022 - Sep 2022",
+        "responsibilities": [
+          "Contributed to architectural design, project documentation, publications, client communication, and presentation preparation.",
+          "Supported cultural and museum-related projects, including the Bangladesh National Museum.",
+          "Assisted in the development of the Shilpacharya Zainul Abedin Gallery, engaging with exhibition environments, gallery experience, and visitor-oriented design."
+        ]
+      },
+      {
+        "role": "Exhibition & Gallery Organizer",
+        "organization": "National Museum / Artist Gallery",
+        "location": "Bangladesh",
+        "dates": "Various projects, 2021 - Present",
+        "responsibilities": [
+          "Supported exhibition planning, coordination, installation, research, documentation, curatorial development, and visitor engagement in museum and gallery contexts.",
+          "Contributed to heritage, art, and architecture exhibitions with attention to interpretation, presentation, and public-facing experience."
+        ]
+      },
+      {
+        "role": "Program Organizer",
+        "organization": "UNESCO World Heritage Volunteers Program / Perceive",
+        "location": "Bangladesh",
+        "dates": "2023",
+        "responsibilities": [
+          "Organized and coordinated a 10-day international heritage workshop supported by UNESCO, the Department of Archaeology Bangladesh, and the Bangladesh National Museum.",
+          "Managed lectures, archival exploration, museum gallery engagement, site visits, hands-on training activities, and multi-site program logistics.",
+          "Facilitated collaboration among international participants, heritage professionals, cultural institutions, and academic institutions."
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "page_note": "The CV materials describe writing roles and subject areas, but do not provide individual article titles. This file therefore does not invent article names.",
+    "article_titles_provided_in_cv": [],
+    "writing_roles": [
+      {
+        "organization": "The Daily Prothom Alo / Kishor Alo",
+        "role": "Contributing Feature & Content Writer; Event Organizer & Youth Program Facilitator",
+        "dates": "2012 - Present; youth/event programs from 2014 - Present",
+        "topics": [
+          "Architecture",
+          "Design",
+          "Culture",
+          "Award-winning projects",
+          "Built-environment topics",
+          "Youth and public-interest stories"
+        ],
+        "activities": [
+          "Write feature articles, interviews, and accessible design-focused stories for a broad public readership.",
+          "Identify architecture, interior design, cultural, youth, and public-interest stories suitable for mainstream publication.",
+          "Coordinate and host large-scale national youth events and facilitate youth-centered programs."
+        ]
+      },
+      {
+        "organization": "Ceramic Bangladesh Magazine / BCMEA",
+        "role": "Content Writer / Contributing Writer",
+        "dates": "2023 - Present",
+        "topics": [
+          "Ceramics",
+          "Building materials",
+          "Architecture",
+          "Design",
+          "Industry trends"
+        ],
+        "activities": [
+          "Develop articles and features.",
+          "Write research-informed content connecting material innovation, design application, architects, engineers, and industry communication.",
+          "Conduct interviews with architects, engineers, and industry leaders.",
+          "Coordinate visuals, captions, references, and supporting content details."
+        ]
+      },
+      {
+        "organization": "ArchBiz Magazine",
+        "role": "Editorial Team / Editorial Associate",
+        "dates": "2025 - Present",
+        "topics": [
+          "Architecture",
+          "Design",
+          "Art",
+          "Business",
+          "Built-environment topics"
+        ],
+        "activities": [
+          "Manage editorial content from topic selection to print preparation.",
+          "Identify relevant stories, projects, designers, industry themes, and built-environment topics.",
+          "Communicate with interviewees, architects, designers, contributors, and project representatives.",
+          "Write research-informed articles and interview-based content.",
+          "Coordinate images, drawings, captions, references, and visual assets; review layouts before print."
+        ]
+      }
+    ],
+    "suggested_website_categories_based_on_cv": [
+      "Architecture writing",
+      "Feature writing",
+      "Interviews",
+      "Material narratives",
+      "Editorial coordination",
+      "Publication workflow",
+      "Built-environment stories"
+    ]
+  },
+  "research_publications": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "research_interests": [
+      "Architectural history and heritage of Bengal",
+      "Sustainable urban design and participatory planning",
+      "Community-based architecture, urban heritage, cultural narratives, and public-facing interpretation",
+      "Archival research, exhibition-based work, material innovation, design communication, and architecture journalism"
+    ],
+    "academic_publications": [
+      {
+        "citation": "Sharmin, S. (2024). Ancient Cities of Riverine Bengal: In Search for “the Soul” of the Settlements. Rajshahi University Journal of Arts & Law, ISSN 2309-0898.",
+        "status": "Published",
+        "year": "2024"
+      },
+      {
+        "citation": "Sharmin, S. (2024). Three Religious Marvels of Bengal: Comparative Insights into Hindu, Buddhist, and Islamic Architecture.",
+        "status": "Accepted, Awaiting Publication",
+        "year": "2024"
+      },
+      {
+        "citation": "Sharmin, S. (2025). Analyzing Mahallah Fabric in the Sultanate Capital of Gaur: A Review of Findings.",
+        "status": "Under Review",
+        "year": "2025"
+      }
+    ],
+    "workshops_collaborative_research": [
+      {
+        "title": "The Making of Publicness Workshop",
+        "host_or_conductor": "Bengal Institute; conducted by Arfar Razi",
+        "location": "Dhaka",
+        "year": "2025",
+        "details": [
+          "Investigated two sites in Dhaka through spatial, political, and physical analysis.",
+          "Conducted user-based assessments on comfort, perception, inclusivity, vitality, and likability; produced a video documentary presenting findings and narratives.",
+          "Workshop inspired by a course developed by Bjorn Sletto and conducted by a UT Austin MCRP graduate."
+        ]
+      },
+      {
+        "title": "Participatory Design Workshop",
+        "host_or_conductor": "Dhaka Urban Lab, World Bank and DSCC",
+        "location": "Dhaka",
+        "year": "2021",
+        "details": [
+          "Engaged in a neighborhood upgrading project focused on community-based urban interventions and participatory design processes."
+        ]
+      }
+    ]
+  },
+  "awards": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "awards_scholarships_recognition": [
+      {
+        "title": "Champion, Find Your Bangladesh Competition",
+        "organization": "British Council and Finding Bangladesh",
+        "year": "2021",
+        "details": "Awarded for researching and documenting a heritage site, including myth, legacy, present condition, business model, and preservation strategies."
+      },
+      {
+        "title": "Best Volunteer Award",
+        "organization": "University of Asia Pacific",
+        "year": "2022",
+        "details": "Honored for leadership, service contribution, and outstanding contributions to cultural and student activities."
+      },
+      {
+        "title": "Dean’s Meritorious List / Dean’s Merit Award",
+        "organization": "University of Asia Pacific",
+        "year": "2020 / 4th Year, 1st Semester",
+        "details": "Academic recognition for excellence in architecture coursework."
+      },
+      {
+        "title": "Merit-based scholarship",
+        "organization": "University of Asia Pacific",
+        "year": "2nd Year, 1st Semester",
+        "details": "Merit-based scholarship."
+      },
+      {
+        "title": "100% scholarship",
+        "organization": "University of Asia Pacific",
+        "year": "1st semester",
+        "details": "Based on SSC and HSC results."
+      },
+      {
+        "title": "1st Runner-up, Open Mic Speech Competition",
+        "organization": "Manusher Jonno Foundation",
+        "year": "2019",
+        "details": "Awarded as a Harmony Ambassador for a speech on religion, peace, and countering radicalism."
+      },
+      {
+        "title": "Champion, Talent Hunt Competition",
+        "organization": "UAP Cultural Club",
+        "year": "2018 and 2019",
+        "details": "Performance in cultural and creative categories."
+      },
+      {
+        "title": "Marks Allrounder Top 10",
+        "organization": "National Reality Show",
+        "year": "2010",
+        "details": "Selected among top performers in acting, dance, and recitation."
+      },
+      {
+        "title": "Champion, Photography Contest",
+        "organization": "Bengal Institute",
+        "year": "2016",
+        "details": "Photography contest recognition."
+      },
+      {
+        "title": "Champion, Photography Contest",
+        "organization": "Wedding Diary Bangladesh and Kishor Alo",
+        "year": "2014",
+        "details": "Photography contest recognition."
+      },
+      {
+        "title": "Champion, School Chess Tournament",
+        "year": "2012",
+        "details": "School chess tournament recognition."
+      },
+      {
+        "title": "National Child Award",
+        "level": "District Level",
+        "year": "2008",
+        "details": "District-level national child award."
+      }
+    ]
+  },
+  "activities": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "event_leadership_creative_practice_youth_engagement": [
+      {
+        "role": "Dance Trainer, Choreographer & Event Coordinator",
+        "organization": "Independent / Institutional Engagements",
+        "dates": "Multiple years",
+        "details": [
+          "Led and trained performance teams ranging from 15 to 150 participants, coordinating schedules, enforcing conduct standards, and ensuring readiness for live events.",
+          "Planned and executed cultural, institutional, and public programs requiring detailed coordination, real-time operational oversight, backstage supervision, and participant accountability.",
+          "Managed time-sensitive challenges during live events while maintaining morale, discipline, participant safety, inclusion, and collaboration."
+        ]
+      },
+      {
+        "role": "Enlisted Performing Artist",
+        "organization": "Bangladesh Television and Bangladesh Shilpakala Academy",
+        "location": "Bangladesh",
+        "dates": "2010 - 2016",
+        "details": [
+          "Selected as a national-level enlisted performing artist based on professional merit.",
+          "Performed within large production teams under strict schedules and live-broadcast conditions; collaborated with directors, producers, and technical teams."
+        ]
+      },
+      {
+        "role": "Event Coordinator & Recreational Program Leader",
+        "organization": "Independent / Institutional Programs",
+        "location": "Bangladesh, Nepal, India",
+        "dates": "Multiple years",
+        "details": [
+          "Led hiking and recreational programs across Bangladesh, Nepal, and India, coordinating participants, logistics, itineraries, safety awareness, and on-site operations.",
+          "Conducted heritage study tours across Bangladesh for up to 100 students in historic cities, managing travel logistics, site schedules, group accountability, and supervision."
+        ]
+      }
+    ],
+    "leadership_creative_roles": [
+      "President, University Drama Club and Literary Club - directed stage productions, organized large-scale festivals and literary programs, and led creative student activities.",
+      "Pioneer Member, University Cultural Club - co-founded and helped organize campus-wide cultural events.",
+      "Host & Facilitator, Kishor Alo Youth Magazine - hosted youth festivals and large-scale events for one of Bangladesh’s prominent youth platforms.",
+      "Theatre Artist & Set Design Contributor - supported theatrical production planning, stage design, and creative direction.",
+      "Voice-over Artist - provided narration and voice-over for national television channels and media productions.",
+      "Film Making - directed short documentary and narrative films on heritage, cultural, urban, and social themes."
+    ]
+  },
+  "presentations": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "conferences_seminars_presentations": [
+      {
+        "role": "Conductor",
+        "title": "Round Table on Creating Safe Online for Girls and Women",
+        "organization": "Prothom Alo",
+        "year": "2021"
+      },
+      {
+        "role": "Speaker",
+        "title": "Forum Next Gen - Sthapatyacharya Muzharul Islam",
+        "organization": "Muzharul Islam Foundation",
+        "year": "2020"
+      },
+      {
+        "role": "Speaker",
+        "title": "The Future of Women Architects and Engineers: Challenges and Prospects",
+        "organization": "Prothom Alo",
+        "year": "2019"
+      }
+    ]
+  },
+  "skills_languages": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "skills": [
+      {
+        "category": "Content & Editorial",
+        "items": [
+          "Architecture writing",
+          "Feature writing",
+          "Editorial planning",
+          "Interview coordination",
+          "Copywriting",
+          "Content development",
+          "Visual coordination",
+          "Caption writing",
+          "Layout review",
+          "Publication workflow"
+        ]
+      },
+      {
+        "category": "Brand & Product",
+        "items": [
+          "Building-material communication",
+          "Brand proposition",
+          "Target-audience profiling",
+          "Product messaging",
+          "Campaign concept development",
+          "Creative briefing",
+          "Brand alignment",
+          "Architect-industry collaboration"
+        ]
+      },
+      {
+        "category": "Research & Archive",
+        "items": [
+          "Urban heritage research",
+          "Architectural history",
+          "Community-based methods",
+          "Participatory research",
+          "Archival documentation",
+          "Collection-based research",
+          "Metadata-informed interpretation",
+          "Exhibition support"
+        ]
+      },
+      {
+        "category": "Leadership & Ops",
+        "items": [
+          "Team supervision and mentoring",
+          "Staff training and facilitation",
+          "Event planning and coordination",
+          "Scheduling",
+          "Workflow coordination",
+          "Logistics",
+          "Conflict resolution",
+          "Professional communication"
+        ]
+      },
+      {
+        "category": "Design & Modeling",
+        "items": [
+          "AutoCAD",
+          "SketchUp",
+          "Rhinoceros 3D",
+          "Lumion",
+          "ArcGIS",
+          "Architectural documentation",
+          "Project analysis"
+        ]
+      },
+      {
+        "category": "Graphics & Media",
+        "items": [
+          "Adobe Photoshop",
+          "Illustrator",
+          "InDesign",
+          "Premiere Pro",
+          "Adobe Firefly",
+          "Documentary and visual storytelling"
+        ]
+      },
+      {
+        "category": "Administrative",
+        "items": [
+          "Google Docs",
+          "Google Sheets",
+          "Google Drive",
+          "Gmail",
+          "Microsoft Office",
+          "Documentation and reporting",
+          "Internal coordination systems",
+          "EMS software exposure"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Bengali",
+        "proficiency": "Native"
+      },
+      {
+        "language": "English",
+        "proficiency": "Professional working proficiency / fluent",
+        "test": "IELTS Academic Overall 7.5"
+      }
+    ]
+  },
+  "references": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "references": [
+      {
+        "name": "Dr. Abu Sayeed Mostaque Ahmed",
+        "title": "Dean, School of Environmental Sciences & Design",
+        "institution": "University of Asia Pacific",
+        "email": "sayeed@uap-bd.edu"
+      },
+      {
+        "name": "Dr. Sajid Bin Doza",
+        "title": "Head, Department of Architecture",
+        "institution": "State University of Bangladesh",
+        "email": "sajid@sub.edu.bd"
+      }
+    ]
+  },
+  "tailoring_notes": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "notes": [
+      "This is a master dataset intended as a comprehensive source. For public webpages, remove sections that are not relevant to the page or audience.",
+      "Graduate admission details differ across source documents: Texas A&M University MUP Fall 2026 appears in the operations/events resume, while The University of Texas at Austin MSCRP appears in architecture/archive CV versions. Keep only the current, relevant program when publishing.",
+      "Finding Bangladesh dates differ across source versions. Confirm whether the correct listing should be 2018-2022, Oct 2023-Present, or intermittent/various engagements before using externally.",
+      "Abul Khair Group is listed as Nov 2024-Present in the most recent content/Archello CV versions and as Nov 2023-Present in one elaborate CV version. Nov 2024-Present is used here because it appears consistently in the newer targeted CVs.",
+      "The CV materials do not include specific article titles. The writing JSON therefore lists roles, topics, and activities only."
+    ]
+  },
+  "site_pages": {
+    "metadata": {
+      "person": "Samia Sharmin",
+      "source": "Samia_Sharmin_Master_CV.docx, created from the uploaded CVs and cover-letter context in this conversation",
+      "data_policy": "Only information present in the CV materials is included. Unknown details are left empty or noted; no article titles or project details were invented.",
+      "last_structured": "2026-04-27"
+    },
+    "pages": [
+      {
+        "slug": "/",
+        "title": "Home",
+        "data_files": [
+          "profile.json",
+          "writing.json",
+          "research_publications.json",
+          "awards.json"
+        ]
+      },
+      {
+        "slug": "/about",
+        "title": "About",
+        "data_files": [
+          "profile.json",
+          "education.json",
+          "skills_languages.json"
+        ]
+      },
+      {
+        "slug": "/work",
+        "title": "Architecture, Exhibition & Heritage Work",
+        "data_files": [
+          "architecture_heritage.json",
+          "experience.json"
+        ]
+      },
+      {
+        "slug": "/articles",
+        "title": "Articles & Writing",
+        "data_files": [
+          "writing.json"
+        ]
+      },
+      {
+        "slug": "/research",
+        "title": "Research & Publications",
+        "data_files": [
+          "research_publications.json"
+        ]
+      },
+      {
+        "slug": "/awards-activities",
+        "title": "Awards & Activities",
+        "data_files": [
+          "awards.json",
+          "activities.json",
+          "presentations.json"
+        ]
+      },
+      {
+        "slug": "/cv",
+        "title": "CV & Experience",
+        "data_files": [
+          "education.json",
+          "experience.json",
+          "architecture_heritage.json",
+          "skills_languages.json",
+          "references.json"
+        ]
+      },
+      {
+        "slug": "/contact",
+        "title": "Contact",
+        "data_files": [
+          "profile.json",
+          "references.json"
+        ]
+      }
+    ]
+  }
+}
