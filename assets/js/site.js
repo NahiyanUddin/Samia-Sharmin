@@ -169,7 +169,7 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
       <div class="hero-grid">
         <div>
           <div class="eyebrow">Architectural Storytelling</div>
-          <h1>Architecture, material, memory, and public-facing writing.</h1>
+          <h1>Samia Sharmin</h1>
           <p class="hero-lead">${escapeHtml(profile.homepage_intro.long)}</p>
           <p class="identity-line">${escapeHtml(profile.title_line)}</p>
           <div class="hero-actions">
@@ -205,10 +205,10 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
 
     <section class="section section-spaced">
       <div class="gateway-grid">
-        ${gatewayCard("Work", "Professional practice across brand strategy, architecture, heritage work, exhibitions, and academic roles.", linkTo(root, "work/"), "Selected Roles")}
-        ${gatewayCard("Writing", "Published articles, editorial practice, interviews, and public communication around architecture and culture.", linkTo(root, "writing/"), "Articles & Editorial")}
-        ${gatewayCard("Research", "Academic publications, heritage inquiry, workshops, and ongoing research interests rooted in Bengal and the built environment.", linkTo(root, "research/"), "Publications & Inquiry")}
-        ${gatewayCard("Activities", "Awards, youth engagement, public speaking, cultural work, and interdisciplinary leadership outside the studio.", linkTo(root, "activities/"), "Recognition & Public Life")}
+        ${gatewayCard("Work", "Professional practice across building-material brand strategy, architecture-focused communication, editorial coordination, heritage documentation, exhibition support, and academic teaching", linkTo(root, "work/"), "Selected Roles")}
+        ${gatewayCard("Writing", "Published articles, interviews, editorial features, and public-facing design communication on architecture, materials, culture, and the built environment.", linkTo(root, "writing/"), "Articles & Editorial")}
+        ${gatewayCard("Research", "Academic publications, heritage research, workshops, and ongoing inquiries into Bengal’s architectural history, cultural landscapes, urban memory, and the built environment.", linkTo(root, "research/"), "Publications & Inquiry")}
+        ${gatewayCard("Activities", "Awards, youth engagement, public speaking, cultural leadership, performance practice, and interdisciplinary work beyond the studio.", linkTo(root, "activities/"), "Recognition & Public Life")}
       </div>
     </section>
 
@@ -221,7 +221,7 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
       <div class="section-panel rich-copy">
         <div class="section-heading">
           <div>
-            <h2>Practice shaped by observation</h2>
+            <h2>Tracing Stories in Space, Material, and Memory</h2>
             <p>${escapeHtml(profile.homepage_intro.short)}</p>
           </div>
         </div>
@@ -233,7 +233,7 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
       <div class="section-heading">
         <div>
           <div class="eyebrow">Featured Work</div>
-          <h2>Practice across strategy, editorial work, and architecture</h2>
+          <h2>Prpfessional, Editorial & Brand Experience</h2>
         </div>
         <p>Selected roles show a practice that moves between content strategy, publishing, material communication, teaching, and architectural research.</p>
       </div>
@@ -247,7 +247,7 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
         <div class="section-heading">
           <div>
             <div class="eyebrow">Writing</div>
-            <h2>Recent articles</h2>
+            <h2>Recent Articles</h2>
           </div>
           <p>Selected published pieces from mainstream and architecture-adjacent editorial contexts.</p>
         </div>
@@ -259,7 +259,7 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
         <div class="section-heading">
           <div>
             <div class="eyebrow">Research</div>
-            <h2>Publications and inquiry</h2>
+            <h2>Academic Publications</h2>
           </div>
           <p>Academic writing rooted in riverine settlements, Bengal's architectural heritage, and spatial interpretation.</p>
         </div>
@@ -525,7 +525,7 @@ function renderWriting(main, root, content, writtenArticles, mentions) {
       <div class="section-heading">
         <div>
           <div class="eyebrow">Articles Written by Samia</div>
-          <h2>Published archive</h2>
+          <h2>Published articles</h2>
         </div>
         <p>Titles are shown as recorded in the source archive, including Bengali-language publication titles.</p>
       </div>
