@@ -590,10 +590,14 @@ function renderWriting(main, root, content, writtenArticles, mentions, writtenAr
 
 function renderArticleSubsection(group, authored) {
   const articleYears = groupByYear(group.items);
+  const sourceBadge = renderArticleSourceBadge(group.label, "source-heading-badge");
 
   return `
-    <div class="year-group">
-      <h3 class="year-heading">${escapeHtml(group.label)}</h3>
+    <div class="article-source-group">
+      <div class="article-source-header">
+        ${sourceBadge}
+        <h3 class="article-source-title">${escapeHtml(group.label)}</h3>
+      </div>
       <div class="content-grid">
         ${articleYears
           .map(
@@ -1091,13 +1095,32 @@ function renderArticleCard(article, authored, overrideType = "") {
   `;
 }
 
-function renderArticleSourceBadge(publication) {
+function renderArticleSourceBadge(publication, className = "publication-badge") {
+  const icon = publicationIconPath(publication);
+
   return `
-    <span class="publication-badge">
-      <img src="${linkTo(document.body.dataset.root || ".", "icons/palo.png")}" alt="Prothom Alo icon">
+    <span class="${escapeHtml(className)}">
+      <img src="${linkTo(document.body.dataset.root || ".", icon)}" alt="${escapeHtml(publication)} icon">
       <span>${escapeHtml(publication)}</span>
     </span>
   `;
+}
+
+function publicationIconPath(publication) {
+  const key = String(publication || "").toLowerCase();
+  if (key.includes("arch biz")) {
+    return "icons/archbiz.jpg";
+  }
+  if (key.includes("ceramic bangladesh")) {
+    return "icons/cb.png";
+  }
+  if (key.includes("kishor alo")) {
+    return "icons/kalo.png";
+  }
+  if (key.includes("the daily star")) {
+    return "icons/tds.png";
+  }
+  return "icons/palo.png";
 }
 
 function splitParagraphs(text) {
