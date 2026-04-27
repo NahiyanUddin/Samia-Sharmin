@@ -697,18 +697,40 @@ button,
   text-transform: uppercase;
 }
 
-.publication-badge img {
+.publication-badge img,
+.publication-badge-icon {
   width: 1.05rem;
   height: 1.05rem;
   object-fit: contain;
   border-radius: 3px;
 }
 
-.source-heading-badge img {
+.source-heading-badge img,
+.source-heading-badge .publication-badge-icon {
   width: 1.5rem;
   height: 1.5rem;
   object-fit: cover;
   border-radius: 5px;
+}
+
+.publication-badge-icon.is-wide {
+  width: 1.45rem;
+  object-fit: contain;
+}
+
+.source-heading-badge .publication-badge-icon.is-wide {
+  width: 2rem;
+  object-fit: contain;
+}
+
+.publication-badge-icon.is-kishoralo {
+  transform: scaleX(0.92);
+  transform-origin: center;
+}
+
+.publication-badge-icon.is-thedailystar {
+  transform: scaleX(0.88);
+  transform-origin: center;
 }
 
 .footer-top {

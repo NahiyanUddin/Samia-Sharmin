@@ -1097,10 +1097,11 @@ function renderArticleCard(article, authored, overrideType = "") {
 
 function renderArticleSourceBadge(publication, className = "publication-badge") {
   const icon = publicationIconPath(publication);
+  const iconClass = publicationIconClass(publication);
 
   return `
     <span class="${escapeHtml(className)}">
-      <img src="${linkTo(document.body.dataset.root || ".", icon)}" alt="${escapeHtml(publication)} icon">
+      <img class="${escapeHtml(iconClass)}" src="${linkTo(document.body.dataset.root || ".", icon)}" alt="${escapeHtml(publication)} icon">
       <span>${escapeHtml(publication)}</span>
     </span>
   `;
@@ -1121,6 +1122,17 @@ function publicationIconPath(publication) {
     return "icons/tds.png";
   }
   return "icons/palo.png";
+}
+
+function publicationIconClass(publication) {
+  const key = String(publication || "").toLowerCase();
+  if (key.includes("kishor alo")) {
+    return "publication-badge-icon is-wide is-kishoralo";
+  }
+  if (key.includes("the daily star")) {
+    return "publication-badge-icon is-wide is-thedailystar";
+  }
+  return "publication-badge-icon";
 }
 
 function splitParagraphs(text) {
