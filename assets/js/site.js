@@ -214,7 +214,7 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
 
     <section class="section section-spaced split-band">
       <div class="quote-panel">
-        <div class="eyebrow">Architecture Beyond Drawings</div>
+        <div><h2>Architecture Beyond Drawings</h2></div>
         <p>${escapeHtml(introParagraphs[0] || profile.homepage_intro.short)}</p>
         <br>
         <br>
@@ -274,7 +274,7 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
       <div class="section-heading">
         <div>
           <div class="eyebrow">Recognition</div>
-          <h2>Awards, leadership, and public engagement</h2>
+          <h2>Awards, Leadership, and Public Engagement</h2>
         </div>
         <p>Recognition spans heritage research, cultural practice, academic merit, and public-facing leadership.</p>
       </div>
