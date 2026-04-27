@@ -537,7 +537,7 @@
       "q:সামিয়া শারমিন"
     ]
   },
-    {
+  {
     "title": "ক্যাম্পাসের প্রিয়মুখ কথার কথা",
     "url": "https://www.prothomalo.com/lifestyle/%E0%A6%95%E0%A6%A5%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BE",
     "publication_date": "2019-09-08T11:40:00+06:00",
@@ -546,6 +546,19 @@
     ],
     "primary_writer": "নিজস্ব প্রতিবেদক",
     "discovery_sources": [
+      "q:সামিয়া শারমিন"
+    ]
+  },
+  {
+    "title": "কফির চুমুকে",
+    "url": "https://www.prothomalo.com/lifestyle/recipe/%E0%A6%95%E0%A6%AB%E0%A6%BF%E0%A6%B0-%E0%A6%9A%E0%A7%81%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%87",
+    "publication_date": "2018-12-25T09:26:00+06:00",
+    "writers": [
+      "সামিয়া শারমিন"
+    ],
+    "primary_writer": "সামিয়া শারমিন",
+    "discovery_sources": [
+      "manual-addition:new_article_links.md",
       "q:সামিয়া শারমিন"
     ]
   }
