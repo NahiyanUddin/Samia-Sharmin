@@ -214,8 +214,11 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
 
     <section class="section section-spaced split-band">
       <div class="quote-panel">
-        <div class="eyebrow">Practice Statement
-        ${introParagraphs.slice(0, 1).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+        <div class="eyebrow">Practice Statement</div>
+        <p>${escapeHtml(introParagraphs[0] || profile.homepage_intro.short)}</p>
+        <br>
+        <br>
+        <p>${escapeHtml(introParagraphs[1] || profile.homepage_intro.long)}</p>
       </div>
       <div class="section-panel rich-copy">
         <div class="section-heading">
