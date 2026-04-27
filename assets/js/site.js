@@ -1034,18 +1034,32 @@ function renderArticleCard(article, authored, overrideType = "") {
   const label = overrideType || inferArticleType(article);
   const publication = inferPublication(article.url);
   const note = authored ? "Article by Samia" : "Feature or mention";
+  const publicationBadge = renderPublicationBadge(publication);
 
   return `
     <article class="article-card">
       <div class="meta-row">
         <span>${escapeHtml(date)}</span>
-        <span>${escapeHtml(publication)}</span>
+        <span>${publicationBadge}</span>
       </div>
       <h3>${escapeHtml(article.title)}</h3>
       <p>${escapeHtml(label)}. ${escapeHtml(note)}.</p>
       <a class="article-link" href="${article.url}" target="_blank" rel="noreferrer">Read article</a>
     </article>
   `;
+}
+
+function renderPublicationBadge(publication) {
+  if (publication === "Prothom Alo") {
+    return `
+      <span class="publication-badge">
+        <img src="${linkTo(document.body.dataset.root || ".", "icons/palo.png")}" alt="Prothom Alo icon">
+        <span>${escapeHtml(publication)}</span>
+      </span>
+    `;
+  }
+
+  return `<span class="publication-badge">${escapeHtml(publication)}</span>`;
 }
 
 function splitParagraphs(text) {
