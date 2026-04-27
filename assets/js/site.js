@@ -215,14 +215,14 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
     <section class="section section-spaced split-band">
       <div class="quote-panel">
         <div class="eyebrow">Practice Statement</div>
-        <blockquote>${escapeHtml(introParagraphs[0] || profile.homepage_intro.short)}</blockquote>
+        <p>${escapeHtml(introParagraphs[0] || profile.homepage_intro.short)}</p>
         <p>${escapeHtml(introParagraphs[1] || profile.homepage_intro.long)}</p>
       </div>
       <div class="section-panel rich-copy">
         <div class="section-heading">
           <div>
             <h2>Tracing Stories in Space, Material, and Memory</h2>
-            <p>${escapeHtml(profile.homepage_intro.short)}</p>
+            // <p>${escapeHtml(profile.homepage_intro.short)}</p>
           </div>
         </div>
         ${introParagraphs.slice(2, 5).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
@@ -233,7 +233,7 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
       <div class="section-heading">
         <div>
           <div class="eyebrow">Featured Work</div>
-          <h2>Prpfessional, Editorial & Brand Experience</h2>
+          <h2>Professional, Editorial & Brand Experience</h2>
         </div>
         <p>Selected roles show a practice that moves between content strategy, publishing, material communication, teaching, and architectural research.</p>
       </div>
