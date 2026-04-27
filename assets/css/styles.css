@@ -260,13 +260,15 @@ button,
 }
 
 .hero-portrait-wrap {
+  display: inline-flex;
   justify-self: end;
-  width: min(100%, 360px);
+  width: fit-content;
+  max-width: min(100%, 348px);
 }
 
 .hero-portrait-frame {
   position: relative;
-  padding: 1rem;
+  padding: 0.7rem;
   border-radius: 34px;
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.99), rgba(242, 245, 244, 0.92));
@@ -277,8 +279,8 @@ button,
 .hero-portrait-frame::before {
   content: "";
   position: absolute;
-  inset: 12px;
-  border-radius: 28px;
+  inset: 9px;
+  border-radius: 30px;
   border: 1px solid rgba(32, 33, 36, 0.07);
   pointer-events: none;
 }
