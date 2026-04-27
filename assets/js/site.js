@@ -173,7 +173,7 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
           <p class="hero-lead">${escapeHtml(profile.homepage_intro.long)}</p>
           <p class="identity-line">${escapeHtml(profile.title_line)}</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="${linkTo(root, "writing/")}">Explore Writing</a>
+            <a class="button button-primary" href="${linkTo(root, "writing/")}">Explore My Writing</a>
             <a class="button button-secondary" href="${linkTo(root, "contact/")}">Start a Conversation</a>
           </div>
         </div>
@@ -183,7 +183,7 @@ function renderHome(main, root, content, writtenArticles, mentions, introParagra
             <div class="portrait-caption">
               <div class="stat-card">
                 <strong>${writtenArticles.length}+</strong>
-                <span>Published articles</span>
+                <span>Published Articles</span>
               </div>
               <div class="stat-card">
                 <strong>${content.research_publications.academic_publications.length}</strong>
@@ -417,7 +417,7 @@ function renderWork(main, root, content) {
   main.innerHTML = `
     <section class="hero page-hero">
       <div class="eyebrow">Work</div>
-      <h1 class="page-title">Professional roles shaped by architecture, content, and cultural interpretation.</h1>
+      <h1 class="page-title">Professional Editorial & Brand Experience</h1>
       <p class="page-intro">From building-material communication and magazine work to teaching, heritage research, exhibitions, and gallery environments, the work sits between built form and public narrative.</p>
     </section>
 
@@ -425,7 +425,7 @@ function renderWork(main, root, content) {
       <div class="section-heading">
         <div>
           <div class="eyebrow">Brand & Editorial Practice</div>
-          <h2>Strategy, publishing, and material communication</h2>
+          <h2>Strategy, Publishing, and Material Communication</h2>
         </div>
       </div>
       <div class="timeline">
@@ -437,7 +437,7 @@ function renderWork(main, root, content) {
       <div class="section-heading">
         <div>
           <div class="eyebrow">Academic Work</div>
-          <h2>Teaching, mentoring, and research support</h2>
+          <h2>Teaching, Mentoring, and Research Activities</h2>
         </div>
       </div>
       <div class="timeline">
@@ -449,7 +449,7 @@ function renderWork(main, root, content) {
       <div class="section-heading">
         <div>
           <div class="eyebrow">Architecture & Heritage</div>
-          <h2>Exhibitions, museums, documentation, and cultural programs</h2>
+          <h2>Exhibitions, Museums, Documentation, and Cultural Programs</h2>
         </div>
       </div>
       <div class="timeline">
@@ -467,7 +467,7 @@ function renderWriting(main, root, content, writtenArticles, mentions) {
   main.innerHTML = `
     <section class="hero page-hero">
       <div class="eyebrow">Writing</div>
-      <h1 class="page-title">Articles, editorial work, and architecture-focused public communication.</h1>
+      <h1 class="page-title">Articles, editorial work, and public-facing architecture storytelling.</h1>
       <p class="page-intro">Published work spans architecture, interiors, culture, materials, education, and public-interest storytelling. Alongside authored articles, the page also traces editorial roles and features where Samia appears or is referenced.</p>
       <div class="inline-actions">
         <a class="button button-secondary" href="${linkTo(root, "contact/")}">Commission Writing</a>
@@ -498,7 +498,7 @@ function renderWriting(main, root, content, writtenArticles, mentions) {
       <div class="section-heading">
         <div>
           <div class="eyebrow">Editorial Roles</div>
-          <h2>Where the writing practice is shaped</h2>
+          <h2>Where My Writing Practice Is Shaped</h2>
         </div>
       </div>
       <div class="timeline">
@@ -528,8 +528,9 @@ function renderWriting(main, root, content, writtenArticles, mentions) {
       <div class="section-heading">
         <div>
           <div class="eyebrow">Articles Written by Samia</div>
-          <h2>Published articles</h2>
+          <h2>Published Articles</h2>
         </div>
+        <br>
         <p>Titles are shown as recorded in the source archive, including Bengali-language publication titles.</p>
       </div>
       <div class="content-grid">
@@ -552,7 +553,7 @@ function renderWriting(main, root, content, writtenArticles, mentions) {
       <div class="section-heading">
         <div>
           <div class="eyebrow">Mentions & Features</div>
-          <h2>Articles mentioning or featuring Samia</h2>
+          <h2>Articles Mentioning Or Featuring Samia</h2>
         </div>
       </div>
       <div class="content-grid">
@@ -562,7 +563,7 @@ function renderWriting(main, root, content, writtenArticles, mentions) {
               <div class="year-group">
                 <h3 class="year-heading">${year}</h3>
                 <div class="article-grid">
-                  ${items.map((article) => renderArticleCard(article, false, "Feature / Mention")).join("")}
+                  ${items.map((article) => renderArticleCard(article, false, "")).join("")}
                 </div>
               </div>
             `
@@ -583,7 +584,7 @@ function renderResearch(main, root, content) {
   main.innerHTML = `
     <section class="hero page-hero">
       <div class="eyebrow">Research</div>
-      <h1 class="page-title">Research rooted in heritage, settlement, memory, and public interpretation.</h1>
+      <h1 class="page-title">Research Rooted In Heritage, Settlement, Memory, And Public Interpretation.</h1>
       <p class="page-intro">The research practice investigates the cultural landscapes of Bengal, architectural history, participatory design, and the ways built knowledge can be shared with wider publics.</p>
     </section>
 
@@ -608,7 +609,7 @@ function renderResearch(main, root, content) {
       <div class="section-heading">
         <div>
           <div class="eyebrow">Publications</div>
-          <h2>Academic publications</h2>
+          <h2>Academic Publications</h2>
         </div>
       </div>
       <div class="timeline">
@@ -621,7 +622,7 @@ function renderResearch(main, root, content) {
         <div class="section-heading">
           <div>
             <div class="eyebrow">Workshops</div>
-            <h2>Collaborative inquiry</h2>
+            <h2>Collaborative Inquiry</h2>
           </div>
         </div>
         <div class="timeline">
@@ -645,7 +646,7 @@ function renderResearch(main, root, content) {
       <div class="section-heading">
         <div>
           <div class="eyebrow">Field & Heritage Research</div>
-          <h2>Applied heritage documentation</h2>
+          <h2>Research On Heritage</h2>
         </div>
       </div>
       <div class="timeline">
@@ -665,7 +666,7 @@ function renderActivities(main, root, content, mentions) {
   main.innerHTML = `
     <section class="hero page-hero">
       <div class="eyebrow">Activities</div>
-      <h1 class="page-title">Awards, cultural practice, youth leadership, and public presence.</h1>
+      <h1 class="page-title">Awards, Cultural Practice, Youth Leadership, And Public Presence.</h1>
       <p class="page-intro">Outside formal professional roles, the portfolio includes public speaking, event leadership, performance, facilitation, documentary work, and a long record of cultural and youth-centered engagement.</p>
     </section>
 
@@ -673,7 +674,7 @@ function renderActivities(main, root, content, mentions) {
       <div class="section-heading">
         <div>
           <div class="eyebrow">Awards</div>
-          <h2>Recognition across research, academics, and cultural work</h2>
+          <h2>Recognition Across Research, Academics, And Cultural Work</h2>
         </div>
       </div>
       <div class="feature-grid">
@@ -685,7 +686,7 @@ function renderActivities(main, root, content, mentions) {
       <div class="section-heading">
         <div>
           <div class="eyebrow">Leadership & Creative Practice</div>
-          <h2>Organizing, performing, and facilitating</h2>
+          <h2>Organizing, Performing, and Facilitating</h2>
         </div>
       </div>
       <div class="timeline">
@@ -712,7 +713,7 @@ function renderActivities(main, root, content, mentions) {
       <div class="section-heading">
         <div>
           <div class="eyebrow">Media Mentions</div>
-          <h2>Public-facing traces of this work</h2>
+          <h2>Public Stories And Media Mentions</h2>
         </div>
       </div>
       <div class="article-grid">
@@ -885,7 +886,7 @@ function renderContact(main, root, content) {
     <section class="hero page-hero">
       <div class="eyebrow">Contact</div>
       <h1 class="page-title">Available for collaborations that need clarity, care, and architectural depth.</h1>
-      <p class="page-intro">For editorial projects, research support, heritage work, communication strategy, or public-facing design storytelling, Samia is available for remote collaboration.</p>
+      <p class="page-intro">For editorial projects, research support, heritage work, communication strategy, or public-facing design storytelling, I am available for remote collaboration.</p>
       <div class="inline-actions">
         <a class="button button-primary" href="mailto:${profile.email}">Email ${escapeHtml(profile.name)}</a>
         <a class="button button-secondary" href="${linkTo(root, "cv/")}">View CV</a>
@@ -1036,7 +1037,7 @@ function renderArticleCard(article, authored, overrideType = "") {
   const date = formatDate(article.publication_date);
   const label = overrideType || inferArticleType(article);
   const publication = inferPublication(article.url);
-  const note = authored ? "Article by Samia" : "Feature or mention";
+  const note = authored ? "Article by Samia" : "Featured or Mentioned";
   const publicationBadge = renderArticleSourceBadge(publication);
 
   return `
