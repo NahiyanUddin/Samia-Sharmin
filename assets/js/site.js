@@ -20,6 +20,19 @@ const pageTitles = {
   contact: "Contact | Samia Sharmin"
 };
 
+const WRITTEN_ARTICLE_SOURCES = [
+  { id: "archbiz", label: "Arch Biz", path: "json_files/articles/archbiz-written-by-samia.json" },
+  { id: "ceramicbangladesh", label: "Ceramic Bangladesh", path: "json_files/articles/ceramicbangladesh-written-by-samia.json" },
+  { id: "prothomalo", label: "Prothom Alo", path: "json_files/articles/prothomalo-written-by-samia.json" },
+  { id: "kishoralo", label: "Kishor Alo", path: "json_files/articles/kishoralo-written-by-samia.json" }
+];
+
+const MENTION_ARTICLE_SOURCES = [
+  { id: "thedailystar", label: "The Daily Star", path: "json_files/articles/thedailystar-mentioning-samia.json" },
+  { id: "prothomalo", label: "Prothom Alo", path: "json_files/articles/prothomalo-mentioning-samia.json" },
+  { id: "kishoralo", label: "Kishor Alo", path: "json_files/articles/kishoralo-mentioning-samia.json" }
+];
+
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
@@ -30,23 +43,23 @@ async function init() {
   renderHeader(root, page);
 
   try {
-    const [allContent, writtenArticles, mentions, introText] = await Promise.all([
+    const [allContent, introText, writtenArticleGroups, mentionGroups] = await Promise.all([
       fetchJson(`${root}/json_files/all_content.json`),
-      fetchJson(`${root}/json_files/articles-written-by-samia.json`),
-      fetchJson(`${root}/json_files/articles-mentioning-samia.json`),
-      fetchText(`${root}/md_files/intro.md`)
+      fetchText(`${root}/md_files/intro.md`),
+      loadArticleGroups(root, WRITTEN_ARTICLE_SOURCES),
+      loadArticleGroups(root, MENTION_ARTICLE_SOURCES)
     ]);
 
     const introParagraphs = splitParagraphs(introText);
-    const articleList = sortByDate(writtenArticles);
-    const mentionList = sortByDate(mentions);
+    const articleList = sortByDate(flattenArticleGroups(writtenArticleGroups));
+    const mentionList = sortByDate(flattenArticleGroups(mentionGroups));
     const main = document.querySelector("#app");
 
     const renderers = {
       home: () => renderHome(main, root, allContent, articleList, mentionList, introParagraphs),
       about: () => renderAbout(main, root, allContent, introParagraphs),
       work: () => renderWork(main, root, allContent),
-      writing: () => renderWriting(main, root, allContent, articleList, mentionList),
+      writing: () => renderWriting(main, root, allContent, articleList, mentionList, writtenArticleGroups, mentionGroups),
       research: () => renderResearch(main, root, allContent),
       activities: () => renderActivities(main, root, allContent, mentionList),
       cv: () => renderCv(main, root, allContent),
@@ -75,6 +88,30 @@ async function fetchText(path) {
     throw new Error(`Could not load ${path}`);
   }
   return response.text();
+}
+
+async function loadArticleGroups(root, sources) {
+  const entries = await Promise.all(
+    sources.map(async (source) => {
+      const items = await fetchJson(`${root}/${source.path}`);
+      return {
+        ...source,
+        items: sortByDate(
+          items.map((item) => ({
+            ...item,
+            sourceId: source.id,
+            sourceLabel: source.label
+          }))
+        )
+      };
+    })
+  );
+
+  return entries;
+}
+
+function flattenArticleGroups(groups) {
+  return groups.flatMap((group) => group.items);
 }
 
 function renderHeader(root, page) {
@@ -456,10 +493,8 @@ function renderWork(main, root, content) {
   `;
 }
 
-function renderWriting(main, root, content, writtenArticles, mentions) {
+function renderWriting(main, root, content, writtenArticles, mentions, writtenArticleGroups, mentionGroups) {
   const writingRoles = content.writing.writing_roles;
-  const articleYears = groupByYear(writtenArticles);
-  const mentionYears = groupByYear(mentions);
 
   main.innerHTML = `
     <section class="hero page-hero">
@@ -531,17 +566,8 @@ function renderWriting(main, root, content, writtenArticles, mentions) {
         <p>Titles are shown as recorded in the source archive, including Bengali-language publication titles.</p>
       </div>
       <div class="content-grid">
-        ${articleYears
-          .map(
-            ([year, items]) => `
-              <div class="year-group">
-                <h3 class="year-heading">${year}</h3>
-                <div class="article-grid">
-                  ${items.map((article) => renderArticleCard(article, true)).join("")}
-                </div>
-              </div>
-            `
-          )
+        ${writtenArticleGroups
+          .map((group) => renderArticleSubsection(group, true))
           .join("")}
       </div>
     </section>
@@ -554,20 +580,35 @@ function renderWriting(main, root, content, writtenArticles, mentions) {
         </div>
       </div>
       <div class="content-grid">
-        ${mentionYears
+        ${mentionGroups
+          .map((group) => renderArticleSubsection(group, false))
+          .join("")}
+      </div>
+    </section>
+  `;
+}
+
+function renderArticleSubsection(group, authored) {
+  const articleYears = groupByYear(group.items);
+
+  return `
+    <div class="year-group">
+      <h3 class="year-heading">${escapeHtml(group.label)}</h3>
+      <div class="content-grid">
+        ${articleYears
           .map(
             ([year, items]) => `
               <div class="year-group">
-                <h3 class="year-heading">${year}</h3>
+                <h4 class="year-heading">${year}</h4>
                 <div class="article-grid">
-                  ${items.map((article) => renderArticleCard(article, false, "")).join("")}
+                  ${items.map((article) => renderArticleCard(article, authored)).join("")}
                 </div>
               </div>
             `
           )
           .join("")}
       </div>
-    </section>
+    </div>
   `;
 }
 
@@ -1033,7 +1074,7 @@ function renderEducationCard(item) {
 function renderArticleCard(article, authored, overrideType = "") {
   const date = formatDate(article.publication_date);
   const label = overrideType || inferArticleType(article);
-  const publication = inferPublication(article.url);
+  const publication = inferPublication(article);
   const note = authored ? "Article by Samia" : "Featured or Mentioned";
   const publicationBadge = renderArticleSourceBadge(publication);
 
@@ -1091,12 +1132,29 @@ function groupByYear(items) {
   });
 }
 
-function inferPublication(url) {
+function inferPublication(article) {
+  if (article?.sourceLabel) {
+    return article.sourceLabel;
+  }
+
+  const url = article?.url || "";
   if (!url) {
     return "Publication";
   }
   if (url.includes("prothomalo.com")) {
     return "Prothom Alo";
+  }
+  if (url.includes("kishoralo.com")) {
+    return "Kishor Alo";
+  }
+  if (url.includes("thedailystar.net")) {
+    return "The Daily Star";
+  }
+  if (url.includes("archbiz.org")) {
+    return "Arch Biz";
+  }
+  if (url.includes("ceramicbangladesh.com")) {
+    return "Ceramic Bangladesh";
   }
   return new URL(url).hostname.replace(/^www\./, "");
 }
