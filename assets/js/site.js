@@ -137,9 +137,6 @@ function bindInteractions() {
     });
   }
 
-  document.querySelectorAll("[data-print]").forEach((button) => {
-    button.addEventListener("click", () => window.print());
-  });
 }
 
 function renderError(error) {
@@ -467,7 +464,7 @@ function renderWriting(main, root, content, writtenArticles, mentions) {
   main.innerHTML = `
     <section class="hero page-hero">
       <div class="eyebrow">Writing</div>
-      <h1 class="page-title">Articles, editorial work, and public-facing architecture storytelling.</h1>
+      <h1 class="page-title">Articles, Editorial Work, And Public-Facing Architecture Storytelling.</h1>
       <p class="page-intro">Published work spans architecture, interiors, culture, materials, education, and public-interest storytelling. Alongside authored articles, the page also traces editorial roles and features where Samia appears or is referenced.</p>
       <div class="inline-actions">
         <a class="button button-secondary" href="${linkTo(root, "contact/")}">Commission Writing</a>
@@ -717,7 +714,7 @@ function renderActivities(main, root, content, mentions) {
         </div>
       </div>
       <div class="article-grid">
-        ${relatedMentions.map((article) => renderArticleCard(article, false, "Mention")).join("")}
+        ${relatedMentions.map((article) => renderArticleCard(article, false, "")).join("")}
       </div>
     </section>
   `;
@@ -741,7 +738,7 @@ function renderCv(main, root, content) {
       <h1 class="page-title">${escapeHtml(profile.name)}</h1>
       <p class="page-intro">${escapeHtml(profile.title_line)}. ${escapeHtml(profile.location)}. ${escapeHtml(profile.availability)}.</p>
       <div class="inline-actions">
-        <button class="button button-primary" data-print="true" type="button">Print / Save as PDF</button>
+        <a class="button button-primary" href="${linkTo(root, "pdfs/Samia_Sharmin_CV.pdf")}" download="Samia_Sharmin_CV.pdf">Download as PDF</a>
         <a class="button button-secondary" href="mailto:${profile.email}">Email</a>
       </div>
       <div class="print-only">
