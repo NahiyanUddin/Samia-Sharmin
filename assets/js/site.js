@@ -1119,7 +1119,7 @@ function publicationIconPath(publication) {
     return "icons/kalo.png";
   }
   if (key.includes("the daily star")) {
-    return "icons/tds.png";
+    return "icons/the-daily-star.svg";
   }
   return "icons/palo.png";
 }
