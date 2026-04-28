@@ -736,6 +736,10 @@ button,
   box-shadow: none;
 }
 
+.publication-badge-icon.is-prothomalo.is-thedailystar {
+  width: 1.35rem;
+}
+
 .source-heading-badge .publication-badge-icon.is-wide {
   width: 2.25rem;
   object-fit: contain;
@@ -748,13 +752,16 @@ button,
   box-shadow: none;
 }
 
+.source-heading-badge .publication-badge-icon.is-prothomalo.is-thedailystar {
+  width: 1.85rem;
+}
+
 .publication-badge-icon.is-kishoralo {
   transform: scaleX(0.94);
   transform-origin: center;
 }
 
 .publication-badge-icon.is-thedailystar {
-  transform: scaleX(0.92);
   transform-origin: center;
 }
 

@@ -1129,11 +1129,11 @@ function publicationIconClass(publication) {
   if (key.includes("prothom alo")) {
     return "publication-badge-icon is-prothomalo";
   }
+  if (key.includes("the daily star")) {
+    return "publication-badge-icon is-prothomalo is-thedailystar";
+  }
   if (key.includes("kishor alo")) {
     return "publication-badge-icon is-wide is-kishoralo";
-  }
-  if (key.includes("the daily star")) {
-    return "publication-badge-icon is-wide is-thedailystar";
   }
   return "publication-badge-icon";
 }
